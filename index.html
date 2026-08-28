@@ -57,8 +57,8 @@ section{position:relative}
 /* ---------- header ---------- */
 .hdr{position:fixed;top:0;left:0;right:0;z-index:60;transition:background .4s var(--ease),border-color .4s,box-shadow .4s}
 .hdr-in{height:var(--bar);display:flex;align-items:center;justify-content:space-between;padding:0 30px;max-width:1400px;margin:0 auto}
-.brand{display:flex;align-items:center;gap:0;height:26px}
-.brand img{height:26px;width:auto;transition:opacity .4s}
+.brand{display:flex;align-items:center;gap:0;height:40px}
+.brand img{height:40px;width:auto;transition:opacity .4s}
 .brand .lw{position:absolute;opacity:1}
 .brand .lb{position:absolute;opacity:0}
 .nav-r{display:flex;align-items:center;gap:26px}
@@ -135,8 +135,8 @@ section{position:relative}
 
 /* full-bleed break */
 .bleed{position:relative;height:80vh;min-height:460px;overflow:hidden;background:#0e0e0e}
-.bleed img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
-.bleed.dark::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(0,0,0,.28),rgba(0,0,0,.05) 40%,rgba(0,0,0,.5))}
+.bleed img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:50% 44%}
+.bleed.dark::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(0,0,0,.44),rgba(0,0,0,.32) 45%,rgba(0,0,0,.56))}
 .bleed-txt{position:absolute;inset:0;z-index:2;display:flex;flex-direction:column;justify-content:center;align-items:center;text-align:center;padding:0 24px;color:#fff}
 .bleed-txt .eyebrow{color:rgba(255,255,255,.75);margin-bottom:22px}
 .bleed-txt h2{font-family:var(--serif);font-weight:300;font-size:clamp(2.1rem,5.8vw,4.6rem);letter-spacing:-.015em;line-height:1.04}
@@ -292,7 +292,6 @@ a:focus-visible,button:focus-visible{outline:2px solid #0e0e0e;outline-offset:3p
   <div class="wrap">
     <div class="ed-head rv">
       <h2>Studio <em>Frames</em></h2>
-      <p class="kr">인체의 곡선이 빛을 받아 드러나는 자리</p>
     </div>
     <div class="mag">
       <figure class="c6 r rv"><img src="haim-p02.webp" alt="역광 속 캐딜락 스트레치 필라테스 촬영" loading="lazy"></figure>
@@ -311,7 +310,7 @@ a:focus-visible,button:focus-visible{outline:2px solid #0e0e0e;outline-offset:3p
 
 <!-- ===== BLEED BREAK (B&W) ===== -->
 <section class="bleed dark">
-  <img src="haim-w05.webp" alt="흑백으로 담은 리포머 필라테스" loading="lazy">
+  <img src="haim-w05.webp" alt="노을빛 바다 바위 위 명상 요가" loading="lazy">
   <div class="bleed-txt">
     <p class="eyebrow">Light &amp; Line</p>
     <h2>Sculpted by <em>light.</em></h2>
@@ -324,7 +323,6 @@ a:focus-visible,button:focus-visible{outline:2px solid #0e0e0e;outline-offset:3p
   <div class="wrap">
     <div class="ed-head rv">
       <h2>Outdoor <em>Archive</em></h2>
-      <p class="kr">야외 자연광을 배경으로, 가장 자연스러운 연출의 사진</p>
     </div>
     <div class="mag">
       <figure class="c12 rw rv full-mo"><img src="haim-w02.webp" alt="호수를 배경으로 한 야외 리포머 촬영" loading="lazy"><figcaption>Yangpyeong · Riverview</figcaption></figure>
